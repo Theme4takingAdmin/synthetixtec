@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="Copyright" content="© 2018 SYNTHETIX TECHNOLOGY">
+  <meta name="Description" content="Pomazli se">
+  <meta name="Author" content="synthetix.eu (info@synthetixtec.com)">
+  <meta name="Keywords" content="SYNTHETIX TECHNOLOGY" lang="en">
+  <meta name="Robots" content="all,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GROUP SYNTHETIX TECHNOLOGY</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style>
+    .Normal{font-size: 20px; text-decoration: none; color: #000;}
+  </style>
+</head>
+
+<body>
+  <ul id="slide-out" class="side-nav black">
+    <li><a class="white-text" href="index.html">About Us</a></li>
+    <li><a class="white-text" href="acmi.html">Wholesale of food</a></li>
+    <li><a class="white-text" href="charter.html">Energetics</a></li>
+    <li><a class="white-text" href="defense.html">Defense Technologies</a></li>
+    <li><a class="white-text" href="aviation.html">Aviation</a></li>
+	<li><a class="white-text" href="media.html">Media and Propaganda</a></li>
+    <li><a class="white-text" href="contact.html">Contact Us</a></li>
+  </ul>
+  <div id="menubutton"></div>
+
+  <div id="menubar" class="navbar-fixed">
+  <nav class="grey darken-3">
+    <div class="container grey darken-3">
+      <div class="row">
+        <div class="col s12">
+          <div class="nav-wrapper">
+            <ul id="nav-mobile">
+              <li><a href="index.html">About Us</a></li>
+              <li><a href="acmi.html">Wholesale of food</a></li>
+			  <li><a href="charter.html">Energetics</a></li>
+              <li><a href="defense.html">Defense Technologies</a></li>
+              <li><a href="aviation.html">Aviation</a></li>
+			  <li><a href="media.html">Media and Propaganda</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <script> //detect menu type and switch it
+  function detectmob() 
+  { 
+   if( navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    || navigator.userAgent.match(/Windows Phone/i)
+   ){
+      return true;
+    }
+    else 
+	{
+      return false;
+    }
+  }
+  
+  if (detectmob() == true) 
+  {
+    document.getElementById("menubar").style.visibility = "hidden";
+	document.getElementById("menubutton").innerHTML = '<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons medium black-text">menu</i></a>';
+  }
+  </script>
+  
+  <div class="container">
+    <div class="row center">
+      <div class="col s12">
+		<h1 class="header col s12 grey-text text-darken-4"><b>GROUP SYNTHETIX TECHNOLOGY</b></h1>
+      </div>
+	</div>
+  </div>
+   
+  <div class="parallax-container valign-wrapper" style ="height:350px;">
+    <div class="parallax"><img src="images/parallax.jpg" alt=""></div>
+  </div>
+  
+  <div class="row">
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+	    <h4>Energetics</h4>
+        <p class="Normal">GROUP SYNTHETICS TECHNOLOGY provides, through the structure of license holders, fuel for the energy sector 
+		and industry.</p>
+		<p class="Normal">We specialize in the long-term provision of LNG and all types of coal.</p>
+		<p class="Normal">We are also capable and licensed to build fuel transportation and storage capacities.</p>
+	  </div>
+    </div>
+  </div>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col s12 m6">
+          <h5 class="white-text">GROUP SYNTHETIX TECHNOLOGY</h5>
+          <p class="grey-text text-lighten-4">ALPHA REGULLUS LLC.<br>
+			LOGEANA, s.r.o.<br>
+			SYNTHETIX TECHNOLOGY AFRICA LTD.<br>
+			Q INTERNATIONAL GROUP LTD.<br>
+			Q INFORMATION TECHNOLOGY Inc.<br>
+			Q INFORMATION TECHNOLOGY GROUP CORP.<br>
+			ASTANA SYNTHETIX TECHNOLOGY TOO<br>
+			SYNTHETIX TECHNOLOGY ENERGY FZCO<br>
+			SYNTHETIX TECHNOLOGY GULF LLC<br>
+          </p>
+
+        </div>
+        
+        <div class="col s12 m6">
+          <h5 class="white-text"><a class="white-text" href="index.html">About Us</a></h5>
+          <ul>
+            <li><a class="white-text" href="mailto:info@synthetixtec.com">info@synthetixtec.com</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://synthetixtec.com" target="_blank">GROUP SYNTHETIX TECHNOLOGY</a>
+      </div>
+    </div>
+  </footer>
+
+ <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script> 
+      $(document).ready(function(){$('.button-collapse').sideNav();});
+	  $(document).ready(function(){$('.parallax').parallax();});
+	  $(document).ready(function(){$('.fixed-action-btn').openFAB();});
+	  $(document).ready(function(){$('select').material_select();});
+	  $(document).ready(function(){$('.timepicker').timepicker({defaultTime: 'now', twelveHour: false, i18n: {done: 'OK', cancel: 'Storno', clear: 'Vymaž'}});});
+  </script>
+
+</body>
+</html>
